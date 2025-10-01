@@ -26,7 +26,7 @@ const store = configureStore({
 export const { increment, decrement} = 
 counterSlice.actions
 
-export type Rootstate = ReturnType<typeof store.getState>
+export type RootState = ReturnType<typeof store.getState>
 
 export type AppDispatch = typeof store.dispatch
 
